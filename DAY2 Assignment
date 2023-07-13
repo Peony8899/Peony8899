@@ -1,0 +1,7 @@
+CREATE TABLE List(
+task_id int NOT NULL,
+task_name varchar(255),
+description varchar(255),
+is_completed BOOL，
+ PRIMARY KEY (task_id)
+）
